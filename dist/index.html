@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polkadot API</title>
+</head>
+<body>
+    <h1>Polkadot API Bonus Block</h1>
+    <div>
+        <input type="text" id="privateKey" placeholder="Private Key">
+        <button id="log-in-button">Log in!</button>
+    </div>
+    <div id="log-in-result"></div>
+
+    <br>
+
+    <h2>Faucet</h2>
+    <div>
+        <input type="text" id="faucetAccount" placeholder="Account">
+        <input type="number" id="faucetAmount" placeholder="Amount">
+        <button id="faucet-button">Perform faucet!</button>
+    </div>
+    <div id="faucet-result"></div>
+
+    <br>
+
+    <h2>Staking</h2>
+    <h3>Stake ATLA (first stake)</h3>
+    <div>
+        <input type="text" id="amountToStake" placeholder="Amount to stake">
+        <button id="stake-button">Stake!</button>
+    </div>
+    <div id="staking-result"></div>
+
+    <br>
+    <h3>Nominate ATLA</h3>
+    <div>
+        <label for="targetAddresses">Enter addresses (each address on a new line):</label>
+    <textarea id="targetAddresses" rows="10" cols="50" placeholder="Address 1\nAddress 2\nAddress 3..."></textarea>
+        <button id="nominate-button">Nominate!</button>
+    </div>
+    <div id="nominate-result"></div>
+
+    <br>
+    <h3>Extra stake ATLA</h3>
+    <div>
+        <input type="text" id="amountToStakeExtra" placeholder="Amount to stake">
+        <button id="bond-extra-button">Stake!</button>
+    </div>
+    <div id="bond-extra-result"></div>
+
+    <br>
+    <h3>Claim rewards (by validator)</h3>
+    <div>
+        <input type="text" id="payoutAccount" placeholder="Account">
+        <input type="number" id="era" placeholder="Era">
+        <button id="claim-rewards-button">Claim rewards!</button>
+    </div>
+    <div id="claim-rewards-result"></div>
+
+    <br>
+    <h3>Unastake ATLA</h3>
+    <div>
+        <input type="text" id="amountToUnstake" placeholder="Amount to unstake">
+        <button id="unstake-button">Unstake!</button>
+    </div>
+    <div id="unstake-result"></div>
+
+    <h2>Governance</h2>
+    <h3>Submit a proposal</h3>
+    <div>
+        <input type="text" id="proposalHash" placeholder="Proposal Hash">
+        <input type="text" id="proposalAmount" placeholder="Amount">
+        <button id="submit-proposal-button">Submit proposal!</button>
+    </div>
+    <div id="submit-proposal-result"></div>
+
+    <br>
+    <h3>Vote in support</h3>
+    <div>
+        <input type="text" id="amountToVote" placeholder="Amount">
+        <input type="text" id="refIndexSuppor" placeholder="Referendum index">
+        <button id="support-vote-button">Vote in support!</button>
+    </div>
+    <div id="support-vote-result"></div>
+
+    <br>
+    <h3>Vote against</h3>
+    <div>
+        <input type="text" id="amountToVoteAgain" placeholder="Amount">
+        <input type="text" id="refIndexSupport" placeholder="Referendum index">
+        <button id="against-vote-button">Vote against!</button>
+    </div>
+    <div id="against-vote-result"></div>
+
+    <script src="/index.8e9bd240.js" defer=""></script>
+</body>
+</html>

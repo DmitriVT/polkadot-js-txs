@@ -1,0 +1,21 @@
+{
+  "name": "polkadot-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@polkadot/api": "^11.2.1",
+    "@polkadot/keyring": "^12.6.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
